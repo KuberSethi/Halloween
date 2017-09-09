@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="500dp" android:layout_height="300dp">
+
+    <RatingBar
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="211dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rating"
+        android:layout_alignEnd="@+id/rating"
+        android:layout_alignStart="@+id/rating"
+        android:layout_marginBottom="26dp"
+        android:ems="10"
+        android:hint="Comments and Concerns"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/rating"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/rating"
+        android:layout_marginBottom="83dp"
+        android:text="Submit" />
+</RelativeLayout>
